@@ -59,9 +59,6 @@ function analisar() {
 }
 
 document.addEventListener("keypress", (event) => {
-    console.log();
     if(event.key === 'Enter') 
         adicionar()
-
-    if(event.key === 1)  {}
 })
